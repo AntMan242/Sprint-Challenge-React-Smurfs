@@ -1,3 +1,51 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+
+}
+
+.link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav p {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+p, h1 {
+  color: whitesmoke;
+}
+
+.Smurfs {
+  color: whitesmoke;
+  font-style: italic;
+}
+
+.SmurfForm {
+  padding: 20px;
+  width: 100px;
+}
+
+button {
+  color: blue;
+  font-weight: bold;
+  padding: 15px 15px;
+}
+
+button:hover {
+  cursor: pointer;
 }
