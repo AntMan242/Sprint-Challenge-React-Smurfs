@@ -1,3 +1,30 @@
 .App {
   text-align: center;
 }
+
+.nav-item {
+  margin: 15px;
+  text-decoration: none;
+  color: blue;
+}
+
+.nav-item:hover {
+  color: blue;
+  font-weight: bold;
+}
+
+h1 {
+  font-style: italic;
+  color: blue;
+  font-weight: bold;
+}
+
+.button {
+  background-color: blue;
+  color: whitesmoke;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
