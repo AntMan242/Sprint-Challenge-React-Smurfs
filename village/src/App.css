@@ -43,9 +43,21 @@ p, h1 {
 button {
   color: blue;
   font-weight: bold;
-  padding: 15px 15px;
+  padding: 5px 5px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-size: 15px;
 }
 
 button:hover {
   cursor: pointer;
+  background-color: #3e8e41;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
